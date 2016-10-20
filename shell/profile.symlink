@@ -1,0 +1,6 @@
+source ~/.prompt_line.sh
+
+# Start tmux for interactive shells not already in tmux.
+[[ $- != *i* ]] && return
+[[ -z "$TMUX" ]] && exec tmux -2
+

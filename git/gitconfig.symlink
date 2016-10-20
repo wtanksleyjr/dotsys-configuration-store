@@ -1,0 +1,9 @@
+[user]
+	email = wtanksleyjr@gmail.com
+	name = William Tanksley
+[push]
+	default = simple
+[core]
+	excludesfile = /home/wtanksley/.global_ignore
+[credential]
+	helper = cache
